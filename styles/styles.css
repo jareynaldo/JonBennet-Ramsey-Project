@@ -1,0 +1,31 @@
+
+.jumbotron {
+  background-image: url('../images/nuclear-header.jpg');  
+  background-size: cover;
+}
+
+.rounded-img{
+  border-radius: 10%;
+}
+.adding-padding{
+  padding-bottom: 1.92rem;
+}
+
+
+@media only screen and (min-width: 1120px) {
+  .adding-padding-lg-only {
+    padding-bottom: 1.92rem;
+  }
+  .height-is-set{
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .height-is-set{
+    margin-left: 20%;
+  }
+}
+.height-is-set{
+  width: auto;
+}
